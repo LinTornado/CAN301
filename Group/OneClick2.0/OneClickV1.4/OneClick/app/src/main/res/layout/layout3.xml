@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/chba3">
+
+    <ImageView
+        android:elevation="30dp"
+        android:id="@+id/naming"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintLeft_toLeftOf="@id/jpbk3"
+        app:layout_constraintTop_toTopOf="@id/jpbk3"
+        app:srcCompat="@drawable/naming" />
+
+    <EditText
+        android:elevation="30dp"
+        android:id="@+id/inputname"
+        app:layout_constraintLeft_toLeftOf="@id/jpbk3"
+        app:layout_constraintTop_toTopOf="@id/jpbk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name the pair..."
+        android:textColor="#ffffff"
+        android:singleLine="true"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="#95a1aa"/>
+
+
+    <ImageView
+        android:elevation="20dp"
+        android:id="@+id/jpbk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/jumpbk"
+        />
+
+    <ImageButton
+        android:elevation="30dp"
+        android:id="@+id/btncfm"
+        app:layout_constraintLeft_toLeftOf="@id/jpbk3"
+        app:layout_constraintTop_toTopOf="@id/jpbk3"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintWidth_default="percent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintWidth_percent="0.9"
+        android:background="@drawable/comfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="300dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

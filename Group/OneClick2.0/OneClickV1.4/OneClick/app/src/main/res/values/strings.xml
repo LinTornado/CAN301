@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pair_Click</string>
+    <string name="good_moring">Good Morning!</string>
+    <string name="where_do_yo">Where do you want to start today?\n</string>
+    <string name="my_library1">My Library</string>
+</resources>

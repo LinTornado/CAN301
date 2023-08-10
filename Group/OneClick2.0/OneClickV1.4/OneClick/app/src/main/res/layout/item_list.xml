@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    >
+
+    <ImageButton
+        android:id="@+id/backcolbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.9"
+        />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/app"
+        android:elevation="40dp"
+        app:layout_constraintLeft_toLeftOf="@id/backcolbtn"
+        app:layout_constraintTop_toTopOf="@id/backcolbtn" />
+
+    <TextView
+        android:id="@+id/btntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/inder"
+        android:text="Open bilibili"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/backcolbtn"
+        app:layout_constraintRight_toRightOf="@id/backcolbtn" />
+
+    <ImageButton
+        android:id="@+id/delicon"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/delete"
+        android:elevation="40dp"
+        app:layout_constraintRight_toRightOf="@id/backcolbtn"
+        app:layout_constraintTop_toTopOf="@id/backcolbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
